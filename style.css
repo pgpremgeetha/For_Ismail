@@ -164,14 +164,14 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-10%, 200%);
+        transform: translate(125%, -50%);
     }
     
     #sign{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(100%, 70%);
+        transform: translate(75%, -25%);
     }
 
     svg{
@@ -179,7 +179,7 @@ body{
     }
     
     svg#line2{
-        width: 40%;
+        width: 13%;
     }
     
     svg#sign{
