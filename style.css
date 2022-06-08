@@ -157,7 +157,7 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -25%);   
+        transform: translate(-50%, -125%);   
     }
     
     #line2{
@@ -176,6 +176,10 @@ body{
 
     svg{
         width: 80%;
+    }
+    
+    svg#line2{
+        width: 40%;
     }
     
     svg#sign{
