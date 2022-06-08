@@ -157,21 +157,21 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);   
+        transform: translate(-50%, -25%);   
     }
     
     #line2{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-10%, 300%);
+        transform: translate(-10%, 200%);
     }
     
     #sign{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(100%, 110%);
+        transform: translate(100%, 70%);
     }
 
     svg{
