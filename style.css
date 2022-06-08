@@ -19,29 +19,30 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fill 1.5s ease forwards 9.0s;
+    animation: fill 2s ease forwards 8.5s;
 }
 
 #line2{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(260%, 125%);
-    animation: fill 1.5s ease forwards 9.0s;
+    transform: translate(260%, 225%);
+    animation: fill 2s ease forwards 9.0s;
 }
 
 #sign{
     position: absolute;
-    top: 63%;
-    left: 68%;
+    top: 50%;
+    left: 50%;
+    transform: translate(90%, 100%);
+    
 }
 
 #sign path:nth-child(1){
     stroke-dasharray: 1480.302001953125;
     stroke-dashoffset: 1480.302001953125;
-    animation: line-anim 3s ease forwards 7.0s;
+    animation: line-anim 3s ease forwards 6s;
 }
-
 
 #line1 path:nth-child(1){
     stroke-dasharray: 416.0293884277344;
@@ -156,28 +157,29 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-51%, -150%);   
+        transform: translate(-50%, -50%);   
     }
     
     #line2{
         position: absolute;
-        top: 55%;
-        left: 60%;
-        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, 300%);
     }
     
     #sign{
         position: absolute;
-        top: 58%;
-        left: 55%;
+        top: 50%;
+        left: 50%;
+        transform: translate(100%, 110%);
     }
 
     svg{
         width: 80%;
-     }
+    }
     
     svg#sign{
-        width: 35%;
-     }
+        width: 25%;
+    }
    
 }
