@@ -19,7 +19,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fill 2s ease forwards 8.5s;
+    animation: fill 2s ease forwards 7s;
 }
 
 #line2{
