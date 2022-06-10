@@ -19,22 +19,22 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fill 2s ease forwards 7s;
+    animation: fill 2s ease forwards 8.0s;
 }
 
 #line2{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(260%, 225%);
-    animation: fill 2s ease forwards 9.0s;
+    transform: translate(150%, 225%);
+    animation: fill 2s ease forwards 8.0s;
 }
 
 #sign{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(90%, 100%);
+    transform: translate(95%, 105%);
     
 }
 
@@ -117,24 +117,44 @@ body{
 
 
 #line2 path:nth-child(1){
-    stroke-dasharray: 120.20885467529297;
-    stroke-dashoffset: 120.20885467529297;
+    stroke-dasharray: 205.0728759765625;
+    stroke-dashoffset: 205.0728759765625;
     animation: line-anim 3s ease forwards 4.2s;
 }
 #line2 path:nth-child(2){
-    stroke-dasharray: 107.99449920654297;
-    stroke-dashoffset: 107.99449920654297;
+    stroke-dasharray: 69.31208038330078;
+    stroke-dashoffset: 69.31208038330078;
     animation: line-anim 3s ease forwards 4.5s;
 }
 #line2 path:nth-child(3){
-    stroke-dasharray: 96.94015502929688;
-    stroke-dashoffset: 96.94015502929688;
+    stroke-dasharray: 76.21004486083984;
+    stroke-dashoffset: 76.21004486083984;
     animation: line-anim 3s ease forwards 4.8s;
 }
 #line2 path:nth-child(4){
-    stroke-dasharray: 114.63330078125;
-    stroke-dashoffset: 114.63330078125;
+    stroke-dasharray: 135.6147003173828;
+    stroke-dashoffset: 135.6147003173828;
     animation: line-anim 3s ease forwards 5.1s;
+}
+#line2 path:nth-child(5){
+    stroke-dasharray: 108.18768310546875;
+    stroke-dashoffset: 108.18768310546875;
+    animation: line-anim 3s ease forwards 5.4s;
+}
+#line2 path:nth-child(6){
+    stroke-dasharray: 97.19488525390625;
+    stroke-dashoffset: 97.19488525390625;
+    animation: line-anim 3s ease forwards 5.7s;
+}
+#line2 path:nth-child(7){
+    stroke-dasharray: 87.24474334716797;
+    stroke-dashoffset: 87.24474334716797;
+    animation: line-anim 3s ease forwards 6.0s;
+}
+#line2 path:nth-child(8){
+    stroke-dasharray: 103.1706314086914;
+    stroke-dashoffset: 103.1706314086914;
+    animation: line-anim 3s ease forwards 6.3s;
 }
 
 @keyframes line-anim{
@@ -164,14 +184,14 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(125%, -50%);
+        transform: translate(200%, 100%);
     }
     
     #sign{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(75%, -25%);
+        transform: translate(150%, 25%);
     }
 
     svg{
@@ -179,11 +199,11 @@ body{
     }
     
     svg#line2{
-        width: 13%;
+        width: 15%;
     }
     
     svg#sign{
-        width: 25%;
+        width: 20%;
     }
    
 }
